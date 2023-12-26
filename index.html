@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .ap{
+            text-align: center;
+            background-color: wheat;
+            height: 111px;
+        }
+        .gp{
+            width: 925px;
+            height: 111px;
+            
+            display: inline-block;
+            background-color: blue;
+
+        }
+        header{
+            background-color: white;
+        }
+        .hp{
+            width: 925px;
+            height: 111px;
+            display: inline-block;
+            background-color: green;
+        }
+        a{
+            background-color: whitesmoke;
+            font-size: 30px;
+        }
+        #first{
+            background-color: aqua;
+        }
+        .red{
+            background-color: red;
+            color: burlywood;
+            margin: 14px;
+            border: 5px solid white;
+            border-style: groove;
+            padding: 13spx;
+        }
+        #abc{
+            display: inline;
+            width: 234px;
+            height: 134px;
+            background-color: aliceblue;
+            color: black;
+        }
+        #xyz{
+            display: inline;
+            width: 234px;
+            height: 134px;
+            background-color: aqua;
+            color: black;
+        }
+        h1{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: seagreen;
+            border: 22px solid rgb(121, 162, 33);
+            border-style: ridge;
+            border-radius: 10px;
+            color: khaki;
+            font-weight: 600px;
+            font-style: oblique;
+            font-family: 'comic sans',sans-serif;
+        }
+        h1{
+            background-color: indianred;
+            transform: translate(343px);
+            transform: rotate(45deg) rotate(0.5turn);
+        }
+        big{
+            text-transform: capitalize;
+            font-size: 3em;
+            
+        }
+        pre,small{
+            border: 12px solid aqua;
+            border-style: inset;
+            color: rgb(99, 63, 182);
+            text-transform: uppercase;
+            line-height: 20px;
+            text-align: center;
+            font-size: 2vw;
+            transform: skew(3deg,8deg);
+        }
+        .container2{
+            display: grid;
+            background-color: yellow;
+            grid-row-gap: 2px;
+            grid-column-gap: 1px;
+            grid-template-columns: auto auto auto auto  ;
+            justify-content: safe;
+        }
+        @media screen and (max-width: 800px) {
+            body{
+                background-color: white;
+                color: black;
+            }
+
+        }
+        .item{
+            background-color: aquamarine;
+            border: 2px solid red;
+        }
+        .container{
+            display: flex;
+            flex-direction: reverse;
+            flex-wrap: wrap-reverse;
+            justify-content: space-between;
+            height: 250px;
+            background-color: #2a9789;
+            align-items: center;
+        }
+        .box1{
+            height: 134px;
+            width: 234px;
+            background-color: brown;
+            border: solid black;
+        }
+        .box2{
+            height: 134px;
+            width: 234px;
+            background-color: brown;
+            border: solid black;
+        }
+        
+        .box3{
+            height: 134px;
+            width: 234px;
+            background-color: brown;
+            border: solid black;
+        }
+        .box4{
+            height: 134px;
+            width: 234px;
+            background-color: brown;
+            border: solid black;
+        }
+        body{
+            background-color: black;
+            background-image: url(css.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 588px 588px;
+            background-attachment: fixed;
+            border: 20px solid red;
+            border-style: outset;
+            color: white;
+            font-size: 3vw;
+        }
+        table{
+            color: white;
+            transform: skew(2deg,5deg);
+        }
+        li{
+            
+            background-color: plum;
+            color: wheat;
+            font-size: 2vw;
+            list-style: square inside url('css2.jpg');
+        }
+        img{
+            width: 1024px;
+            height: 623px;
+            transition: width 4s ease-in, height 2s ease-in;
+        }
+        img:hover{
+            width: 256px;
+            height: 123px;
+        }
+        p{
+            line-height: 50px;
+            font-family: 'Courier New', Courier, monospace;
+            text-decoration:wavy white;
+            font-size: 2vw;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+        <div class="box3">box3</div>
+        <div class="box4">box4</div>
+    </div>
+    <div class="container2">
+        <div class="item">item1</div>
+        <div class="item">item2</div>
+        <div class="item">item3</div>
+        <div class="item">item4</div>
+        <div class="item">item5</div>
+        <div class="item">item6</div>
+        <div class="item">item7</div>
+        <div class="item">item8</div>
+        <div class="item">item9</div>
+        <div class="item">item10</div>
+        <div class="item">item11</div>
+        <div class="item">item12</div>
+        <div class="item">item13</div>
+        <div class="item">item14</div>
+        <div class="item">item15</div>
+        <div class="item">item16</div>
+        <div class="item">item17</div>
+        <div class="item">item18</div>
+        <div class="item">item19</div>
+        <div class="item">item20</div>
+    </div>
+    <div class="ap">black</div>
+    <div class="gp">blue</div>
+    <div class="hp">red</div><br>
+    <a href="https://github.com/VenCasMet/first_html_project">This is my GitHub.</a>
+    <nav>
+        <ul>
+        <li>HOME</li>
+        <li>CONTACT</li>
+        <li>ABOUT US</li>
+        <li>MENU</li>
+    </ul>
+    </nav>
+    <div id="first">
+        ye to pehla hoga
+    </div>
+    <div id="second">
+        ye doosra hoga
+    </div>
+    <section class="red">
+        ye section hoga
+    </section>
+    <!-- kya hi likhu nhi samajh aa rha hai -->
+    <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, laborum. -->
+    <h1>This is heading start.</h1><hr>
+    <div>
+        <form action="form.php">
+            <input type="text" placeholder="your name please">
+            <label for="seca">
+            <input type="radio" value="section a" name="section" id="seca">A
+        </label>
+        <label for="secb">
+            <input type="radio" value="section b" name="section" id="secb">B
+        </label>
+        <input type="checkbox" name="food" id="canteen">
+        <label for="canteen">khana hai ki nhi</label><br>
+        <textarea name="batao" id="noice" cols="30" rows="10" placeholder="kya kehna hai tujhe"></textarea>
+        </form>
+    </div>
+    <h4>this next type of heading. wow</h4>
+    <p>This is paragraph</p>
+    <big>bada hai</big><br><br><br><br>
+    <small>chotta hoga</small><br>
+    <br>
+    <hr>
+    <h1>CO <sub>2</sub>
+    </h1>
+    <h1>&uarr; &darr; &harr;
+    </h1>
+    <h1>C+O<sub>2</sub> &rarr; CO<sub>2</sub></h1>
+    <h1>(a+b)<sup>2</sup></h1>
+    <a href="https://www.youtube.com/" Class="me" id="last">YouTube open ho jaega soch k</a><br>
+    <div id="abc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis et magnam minus dolorum provident aliquam explicabo. Cum debitis dolore eum modi deserunt, facere qui nihil velit aliquam, perferendis dolorum nisi. Necessitatibus hic quidem dolor accusantium aliquid mollitia commodi reiciendis, molestias unde ipsum non.</div>
+    <div id="xyz">Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, fuga! Ea, porro. adipisicing elit. Aperiam, delectus?</div>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi soluta optio distinctio architecto blanditiis, accusantium praesentium possimus corrupti. Atque ex cumque eius praesentium culpa assumenda corporis illum repellendus nisi doloremque ratione, itaque officiis impedit nihil facere amet tempore optio dolor, pariatur architecto, laborum ab? Distinctio amet voluptatem, illo odio iusto quam cupiditate architecto voluptatum aliquid excepturi praesentium. A laboriosam cumque accusamus labore veniam impedit at suscipit quaerat minus autem rem iusto, nemo veritatis, quisquam eos beatae amet sed sapiente doloremque sint. Cupiditate error voluptatibus maiores tempore alias dolorem quae eaque, praesentium itaque sed quod blanditiis explicabo quas beatae expedita eius eum soluta, vitae officiis, illum vero. Necessitatibus quaerat magnam pariatur, hic nostrum voluptas modi doloremque quam ullam eveniet? Saepe molestiae accusamus, error obcaecati vel nisi temporibus atque facere repudiandae quaerat architecto! Modi earum dolore sint accusantium nobis cumque. Libero eveniet voluptatum illum blanditiis, nostrum dolores doloremque quas vel obcaecati facilis dicta earum consequuntur nobis harum voluptatem rem, cupiditate esse pariatur. Necessitatibus vero facilis illo consequatur error eligendi dicta debitis, officiis repellat, dolore animi voluptas, quaerat maxime numquam eveniet consectetur. Ut dolore nostrum soluta aperiam corrupti consequuntur illum? Commodi illum libero nisi adipisci, labore debitis eius sit tempore! Ipsam ad sit illo similique exercitationem impedit veritatis laboriosam praesentium labore quasi recusandae dicta in cum odio cupiditate laborum, officiis repudiandae voluptatum animi facere. Officia iure repellendus culpa. Magni dignissimos quae ut! Atque pariatur dicta in. Saepe, aliquam vero molestias illo non tenetur ea deserunt soluta earum iure quo, magni a nostrum vitae provident placeat odio cumque expedita sed delectus voluptatibus cum, repudiandae corrupti? Nemo mollitia temporibus itaque! Dolor distinctio, illo tempore culpa modi repudiandae, quos sed doloribus nisi corporis alias similique aliquid eaque nobis commodi cupiditate saepe inventore, magnam illum rerum at dolorem ipsa. Facere pariatur mollitia a deserunt alias, repellat culpa.</p>
+    <a href="/second.html">aa gya bhai</a><br>
+    <b>bold kr dia</b>
+    <br><hr>
+    <i>tedha hai</i><br>
+    <header>
+    <ol>
+        <li>home</li>
+        <li>web</li>
+        <li>next</li>
+        <li>about</li>
+        <li>vscode</li>
+    </ol>
+</header>
+    <ul>
+        <li>home</li>
+        <li>web</li>
+        <li>next</li>
+        <li>about</li>
+        <li>vscode</li>
+    </ul>
+    <u>line dikhi???</u><br>
+    <img src="https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-980x653.jpg" alt="pata no bhaya"><br>
+    <img src="css3.jpg" alt="ispe animation krna">
+    <pre>#include<bits/stdc++.h>
+
+        using namespace std;
+        void run(){
+            #ifndef ONLINE_JUDGE
+            freopen("input.txt", "r" ,stdin);
+            freopen("outpu.txt", "w" ,stdout);
+            #endif
+        }
+        
+        
+        
+        
+        
+        void solve(){
+            int n,k,sum=0;
+            cin>>n>>k;
+            int arr[n],brr[n];
+            for(int j=0;j<n;j++){
+                cin>>arr[j];
+            }
+            for(int j=0;j<n;j++){
+                cin>>brr[j];
+            }
+            if(k<=n){
+                for(j=0;j<n-1;j++){
+                    sum=sum+arr[j];
+                    k=k-1;
+                    if(k==0){
+                        break;
+                    }
+                    if(brr[j]>=arr[j+1]){
+                        sum=sum+
+                    }
+                }
+            }
+        }
+        
+        
+        
+        
+        signed main(){
+            run();
+            long long t=1;
+            cin>>t;
+            while(t--){
+                solve();
+            }
+            return 0;
+        }</pre>
+        <div>
+            <table>
+                <caption>match highlight</caption>
+                <thead></thead>
+                <tr>
+                    <th>s.no.</th>
+                    <th>name</th>
+                    <th>runs</th>
+                    <th>vs</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Virat</td>
+                    <td>183</td>
+                    <td>Pak</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Rohit</td>
+                    <td>264</td>
+                    <td>SL</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Ab De Villiers</td>
+                    <td>163</td>
+                    <td>WI</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Maxwell</td>
+                    <td>200</td>
+                    <td>Afg</td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+</body>
+</html>
