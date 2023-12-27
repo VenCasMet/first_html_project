@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --main-bg-color: rgb(5, 1, 1);
+}
+header{
+    
+    background-color: var(--main-bg-color);
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 600px;
+    height: 30px;
+    border-radius: 12px;
+    margin: 0px 0px 0px 112px;
+}
+
+.btn{
+    margin: 0px 112px 0px 0px;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 150px;
+    padding: 0 23px;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+nav ul li{
+    padding: 0 23px;
+    list-style: none;
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(20, 19, 19);
+    font-weight: bolder;
+}
+
+.container{
+    min-height: calc(100vh - 58px - 10vh);
+}
+.slider{
+    width: 80vw;
+    margin: 12px auto;
+}
+.carditem{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 3px;
+}
+.carditem:hover{
+    cursor: pointer;
+    font-weight: bolder;    
+}
+h1{
+    text-align: center;
+}
+.lines .text{
+    margin: 5px 0px;
+}
+body{
+    background-color: darkgrey;
+}
+footer{
+    height: 10vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    display: flex;
+}
